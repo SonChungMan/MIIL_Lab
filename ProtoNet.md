@@ -11,5 +11,5 @@
 >>>> 1. Matching Network : query set를 예측하기 위해 Support set의 학습된 임베딩에 대한 attention mechanism 사용(episode 사용)  
 >>>> 2. LSTM을 train -> 주어진 episode에서 classifier에 대한 update -> generalization  
 >>> overfitting problem  
->>>>제한된 data -> classifier가 simple inductive bias를 가진다고 가정  
- 
+>>>>제한된 data -> classifier가 simple inductive bias를 가진다고 가정
+>>>>**"각 class의 single prototype으로 점이 cluster되는 embedding이 존재한다"**  
